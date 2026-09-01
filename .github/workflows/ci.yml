@@ -168,3 +168,5 @@ jobs:
         run: |
           docker push \
             ${{ vars.ACR_LOGIN_SERVER }}/${{ matrix.image }}:latest
+
+      # trying to trigger CI pipeline after Node.js 24 update
